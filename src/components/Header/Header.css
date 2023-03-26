@@ -1,0 +1,43 @@
+.header {
+    background: url("../../assets/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    min-height: 80vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.header-input {
+    outline: none;
+    width: 75%;
+    padding: 1.3rem;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    border-radius: 5px;
+    border: 2px solid white;
+    color: rgb(54, 52, 52);
+}
+
+.header-ptag {
+    color: #201e1e;
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: var(--font-base);
+    margin-bottom: 2rem;
+}
+
+.header-ptagsmall {
+    color: #2f003e;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: var(--font-base);
+    margin-bottom: 1rem;
+}
